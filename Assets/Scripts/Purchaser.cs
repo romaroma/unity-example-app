@@ -8,7 +8,7 @@ public class Purchaser : MonoBehaviour, IStoreListener
     private static IStoreController m_StoreController; // Reference to the Purchasing system.
     private static IExtensionProvider m_StoreExtensionProvider;
     private string internalProdId = "skipAds";
-    private string itunesProdId = "Remove Ads and Save Levels";
+    private string itunesProdId = "TFPC004";
 
     public void BuyProduct()
     {
